@@ -21,7 +21,7 @@
 
 ```
 hardware/          KiCad projesi (şematik, PCB, proje sembol kütüphanesi)
-  BOM.csv          malzeme listesi (örnek parça numaralarıyla)
+  BOM.md / BOM.csv malzeme listesi (okunabilir tablo / üretici formatı)
   ledctl-gerbers.zip   üreticiye (JLCPCB/PCBWay vb.) doğrudan yüklenebilir
   fabrication/     Gerber, drill, pick-and-place (pos) dosyaları
   scripts/         şematik/PCB'yi üreten Python betikleri (design.py = tek kaynak)
@@ -32,6 +32,27 @@ firmware/
 enclosure/         OpenSCAD kaynak + basılmaya hazır STL'ler
 docs/              şematik PDF, PCB montaj PDF'i, görseller
 ```
+
+## Malzeme listesi (BOM)
+
+Ayrıntılı liste için [`hardware/BOM.md`](hardware/BOM.md), makineli montaj için [`hardware/BOM.csv`](hardware/BOM.csv) dosyasına bak.
+
+| Adet | Ref | Parça |
+|---:|---|---|
+| 1 | U2 | ESP32-C3-WROOM-02-N4 |
+| 1 | U1 | AP63203WU-7 (3.3 V buck) |
+| 1 | Q1 | AO3400A |
+| 1 | L1 | 4.7 µH, ≥3 A, 4×4 mm |
+| 1 / 1 / 1 | D1 / D2 / D3 | SS34 / SS14 / SMAJ28A |
+| 1 | D4 | Yeşil LED 0603 |
+| 1 | F1 | PTC 1812, 3 A / 30 V |
+| 9 | C1–C8 | 10µ/50V 1206, 100n/50V, 2× 100n, 2× 22µ/10V 0805, 10µ 0805, 1µ |
+| 9 | R1–R9 | 4× 10k, 100R, 100k, 1k, 2× 5.1k (0603) |
+| 2 | J1, J2 | Vidalı klemens 2P 5.08 mm |
+| 1 | J3 | USB-C HRO TYPE-C-31-M-12 |
+| 1 | J4 | 1×4 pin header (opsiyonel) |
+| 2 | SW1, SW2 | Tact switch 5.1×5.1 mm (TS-1187A) |
+| 4 | — | M3 × 20 vida (kutu) |
 
 ## Pin haritası
 
@@ -112,7 +133,7 @@ openscad -D 'part="lid"'  -o enclosure/ledctl_case_lid.stl  enclosure/ledctl_cas
 ## Üretim
 
 1. `hardware/ledctl-gerbers.zip` dosyasını PCB üreticisine yükle. Ayarlar: 2 katman, 1.6 mm, 1 oz bakır.
-2. Montaj için `hardware/BOM.csv` ve `hardware/fabrication/ledctl-pos.csv` dosyalarını kullan.
+2. Montaj için `hardware/BOM.csv` (okunabilir hali: `hardware/BOM.md`) ve `hardware/fabrication/ledctl-pos.csv` dosyalarını kullan.
 3. ESP modülünün anteni kartın sağ kenarından yaklaşık 6 mm dışarı taşar. Bu bilinçli bir tercih: antenin altında bakır olmaması gerekiyor. Kutu bu taşmaya göre tasarlandı.
 
 ## Tasarım notları ve sınırlar
