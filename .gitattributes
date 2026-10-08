@@ -1,0 +1,12 @@
+* text=auto
+*.kicad_sch  text eol=lf
+*.kicad_pcb  text eol=lf
+*.kicad_sym  text eol=lf
+*.kicad_pro  text eol=lf
+*.scad       text eol=lf
+*.stl        binary
+*.bin        binary
+*.zip        binary
+*.pdf        binary
+*.png        binary
+hardware/fabrication/* -diff

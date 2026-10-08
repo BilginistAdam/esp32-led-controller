@@ -1,0 +1,32 @@
+# KiCad
+*.kicad_prl
+*-backups/
+*.bak
+*.bck
+*.lck
+_autosave-*
+fp-info-cache
+\#auto_saved_files\#
+*.net
+*.dsn
+*.ses
+*.rpt
+*.erc
+
+# PlatformIO
+firmware/platformio/.pio/
+firmware/platformio/.vscode/
+
+# ESPHome
+firmware/esphome/secrets.yaml
+firmware/esphome/.esphome/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/

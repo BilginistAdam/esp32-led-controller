@@ -1,0 +1,28 @@
+Qty,References,Value,Description,Package / Footprint,Example part number
+1,U2,ESP32-C3-WROOM-02-N4,"Wi-Fi/BLE module, 4 MB flash, PCB antenna",ESP32-C3-WROOM-02,Espressif ESP32-C3-WROOM-02-N4
+1,U1,AP63203WU,"Synchronous buck 3.8-32 V in, 3.3 V / 2 A out, 1.1 MHz",TSOT-23-6,Diodes Inc. AP63203WU-7
+1,Q1,AO3400A,"N-MOSFET 30 V / 5.7 A, logic level (LED strip switch)",SOT-23,Alpha & Omega AO3400A
+1,L1,4.7uH,"Power inductor 4.7 uH, Isat >= 3 A, shielded",4.0 x 4.0 mm (FNR4030S),Changjiang FNR4030S4R7MT (or equiv.)
+1,D1,SS34,"Schottky 40 V / 3 A (adapter -> buck, diode-OR)",SMA,SS34
+1,D2,SS14,"Schottky 40 V / 1 A (USB VBUS -> buck, diode-OR)",SMA,SS14
+1,D3,SMAJ28A,"TVS 28 V standoff, unidirectional",SMA,SMAJ28A
+1,D4,GREEN,"Status LED, green",0603,any 0603 green LED
+1,F1,PTC 3A,"Resettable fuse, I_hold >= 3 A, V_max >= 30 V",1812,any 1812 PTC (e.g. 3 A / 30 V)
+1,C1,10uF 50V,"Buck input bulk, X5R/X7R",1206,any 10 uF 50 V 1206
+1,C2,100nF 50V,"Buck input HF decoupling, X7R",0603,any
+2,C3 C7,100nF,"Bootstrap (C3), module decoupling (C7), X7R 16 V+",0603,any
+2,C4 C5,22uF 10V,"Buck output, X5R/X7R",0805,any 22 uF 10 V 0805
+1,C6,10uF,"Module bulk decoupling, 10 V+",0805,any
+1,C8,1uF,"EN RC delay, 10 V+",0603,any
+4,R1 R2 R3 R4,10k,"EN pull-up, strapping pull-ups (IO9 / IO8 / IO2)",0603,any 1%
+1,R5,100R,"MOSFET gate series resistor",0603,any
+1,R6,100k,"MOSFET gate pull-down (LED off during boot)",0603,any
+1,R7,1k,"Status LED series resistor",0603,any
+2,R8 R9,5.1k,"USB-C CC1/CC2 pull-downs (sink role)",0603,any 1%
+2,SW1 SW2,TS-1187A,"Tactile switch 5.1 x 5.1 mm, 1.5 mm actuator (RESET / BOOT-user)",SMD 4-pad,XKB TS-1187A-B-A-B
+1,J3,USB-C 16P,"USB 2.0 Type-C receptacle, mid-mount SMD + THT shell",HRO TYPE-C-31-M-12,Korean Hroparts TYPE-C-31-M-12
+2,J1 J2,2-pos 5.08 mm,"Screw terminal block (J1 = 12-24 V in, J2 = LED strip)",Phoenix MKDS 1.5/2-5.08,Phoenix Contact 1715721 (or equiv.)
+1,J4,1x4 2.54 mm,"UART/debug header (optional, may be left unpopulated)",PinHeader_1x04_P2.54mm,any
+,,,,,
+,,,Enclosure hardware,,
+4,,M3 x 20,"Pan head self-tapping (or machine screw with M3 heat-set inserts)",,
