@@ -86,7 +86,7 @@ for (x, y), t in NOTES:
 
 doc = [Sym("kicad_sch"), [Sym("version"), 20230121], [Sym("generator"), Sym("eeschema")], [Sym("uuid"), ROOT],
        [Sym("paper"), "A4"],
-       [Sym("title_block"), [Sym("title"), "ESP32-C3 LED Strip Controller"], [Sym("rev"), "A"],
+       [Sym("title_block"), [Sym("title"), "LED Controller - ESP32-C3 LED Strip Controller"], [Sym("rev"), "A"], [Sym("company"), "Bilginier"],
         [Sym("comment"), 1, "12-24V LED serit, WiFi ac/kapa + PWM"]],
        [Sym("lib_symbols")] + list(lib_symbols.values())] + body + [
        [Sym("sheet_instances"), [Sym("path"), "/", [Sym("page"), "1"]]]]

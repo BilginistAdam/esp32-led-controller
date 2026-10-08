@@ -8,6 +8,8 @@
 
 part = "assembly";
 
+include <bilginier_logo.scad>
+
 /* [Fit] */
 clr        = 0.5;    // PCB to wall clearance
 wall       = 2.0;
@@ -134,7 +136,9 @@ module lid() {
       translate([-1, 20.5]) text("LED", size = 2.6, font = "Liberation Sans:style=Bold");
       for (b = buttons) translate([b[0] + 4.3, b[1] + tongue_l - 5]) text(b[2], size = 2.6, font = "Liberation Sans:style=Bold");
       translate([status_led[0], status_led[1] + 2.6]) text("WiFi", size = 2.2, halign = "center", font = "Liberation Sans:style=Bold");
-      translate([40, 24]) text("LED CTRL", size = 6, halign = "center", font = "Liberation Sans:style=Bold");
+      translate([40, 30]) bilginier_logo(12);
+      translate([40, 19.6]) text("LED Controller", size = 3.6, halign = "center", font = "Liberation Sans:style=Bold");
+      translate([40, 15.9]) text("BILGINIER", size = 2.3, spacing = 1.35, halign = "center", font = "Liberation Sans:style=Bold");
     }
   }
 }

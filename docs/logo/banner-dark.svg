@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="1000" height="230" rx="18" fill="#141413"/>
+  <g transform="translate(24.2 47.7) scale(1.348)">
+  <path d="M 113.51 -3.77 L 109.20 -3.62 L 105.87 -2.48 L 102.94 -0.53 L 100.89 1.73 L 98.26 1.11 L 95.62 1.02 L 93.01 1.45 L 90.53 2.39 L 88.28 3.78 L 86.35 5.59 L 84.81 7.74 L 83.72 10.15 L 78.83 11.17 L 76.50 12.42 L 74.45 14.10 L 72.77 16.15 L 71.52 18.48 L 70.76 21.01 L 70.50 23.58 L 66.29 26.43 L 64.61 28.48 L 63.36 30.81 L 62.59 33.34 L 62.33 35.98 L 63.20 40.72 L 61.31 43.25 L 60.22 45.66 L 59.62 48.24 L 59.62 51.76 L 60.89 55.97 L 63.20 59.28 L 62.45 62.26 L 62.36 64.91 L 62.79 67.52 L 63.73 69.99 L 66.29 73.57 L 70.50 76.42 L 70.96 79.85 L 71.89 82.33 L 73.29 84.57 L 75.78 87.06 L 79.66 89.14 L 83.72 89.85 L 84.81 92.26 L 86.35 94.41 L 88.28 96.22 L 90.53 97.61 L 93.01 98.55 L 95.62 98.98 L 98.26 98.89 L 100.89 98.27 L 103.62 101.09 L 107.50 103.16 L 110.08 103.76 L 113.51 103.77 L 113.99 101.51 L 115.40 99.40 L 117.51 97.99 L 120.00 97.50 L 122.49 97.99 L 124.60 99.40 L 126.01 101.51 L 126.49 103.77 L 129.92 103.76 L 132.50 103.16 L 134.91 102.07 L 137.06 100.53 L 139.11 98.27 L 141.74 98.89 L 144.38 98.98 L 146.99 98.55 L 149.47 97.61 L 151.72 96.22 L 153.65 94.41 L 155.19 92.26 L 156.28 89.85 L 159.50 89.39 L 161.97 88.46 L 164.22 87.06 L 166.15 85.26 L 168.48 81.52 L 169.24 78.99 L 169.50 76.42 L 173.71 73.57 L 175.39 71.52 L 176.64 69.19 L 177.41 66.66 L 177.67 64.02 L 176.80 59.28 L 178.69 56.75 L 179.78 54.34 L 180.47 50.88 L 180.38 48.24 L 179.11 44.03 L 176.80 40.72 L 177.55 37.74 L 177.64 35.09 L 177.21 32.48 L 176.27 30.01 L 173.71 26.43 L 169.50 23.58 L 169.04 20.15 L 168.11 17.67 L 166.71 15.43 L 164.22 12.94 L 160.34 10.86 L 156.28 10.15 L 155.19 7.74 L 153.05 4.95 L 151.00 3.27 L 147.84 1.71 L 143.50 0.99 L 139.11 1.73 L 137.06 -0.53 L 134.13 -2.48 L 131.66 -3.42 L 128.16 -3.88 L 126.49 -3.77 L 125.73 -0.94 L 123.61 1.40 L 121.27 2.38 L 118.73 2.38 L 116.94 1.73 L 115.40 0.60 L 113.99 -1.51 L 113.51 -3.77 Z" fill="#f4a93b" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 90.00 16.00 L 84.00 24.00 L 74.00 24.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 90.00 84.00 L 84.00 76.00 L 74.00 76.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 150.00 16.00 L 156.00 24.00 L 166.00 24.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 150.00 84.00 L 156.00 76.00 L 166.00 76.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 120.00 3.00 L 120.00 23.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 120.00 77.00 L 120.00 97.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 103.00 40.00 L 50.00 40.00 L 38.00 28.00 L 28.00 28.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 103.00 50.00 L 24.00 50.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 103.00 60.00 L 50.00 60.00 L 38.00 72.00 L 28.00 72.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 137.00 40.00 L 190.00 40.00 L 202.00 28.00 L 212.00 28.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 137.00 50.00 L 216.00 50.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 137.00 60.00 L 190.00 60.00 L 202.00 72.00 L 212.00 72.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 110.00 33.00 L 110.00 27.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 110.00 67.00 L 110.00 73.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 120.00 33.00 L 120.00 27.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 120.00 67.00 L 120.00 73.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 130.00 33.00 L 130.00 27.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 130.00 67.00 L 130.00 73.00" fill="none" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="22.50" cy="28.00" r="5.0" fill="#3ec1c9" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="18.50" cy="50.00" r="5.0" fill="#3ec1c9" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="22.50" cy="72.00" r="5.0" fill="#3ec1c9" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="217.50" cy="28.00" r="5.0" fill="#3ec1c9" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="221.50" cy="50.00" r="5.0" fill="#3ec1c9" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="217.50" cy="72.00" r="5.0" fill="#3ec1c9" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 103.00 33.00 L 137.00 33.00 L 137.00 67.00 L 103.00 67.00 Z" fill="#3ec1c9" stroke="#ecebe6" stroke-width="3.6" stroke-linecap="miter" stroke-linejoin="round"/>
+  <rect x="111.5" y="41.5" width="17.0" height="17.0" fill="#ecebe6"/>
+  </g>
+  <text x="372" y="112" font-size="64" font-weight="700" fill="#ecebe6">LED Controller</text>
+  <text x="372" y="160" font-size="30" letter-spacing="9" font-weight="600" fill="#9a9a92">BILGINIER</text>
+</svg>
